@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>4 | J. Mellet</title>
-    <link>https://jumellet.github.io/publication-type/4/</link>
-      <atom:link href="https://jumellet.github.io/publication-type/4/index.xml" rel="self" type="application/rss+xml" />
+    <title>4 | Jorand Gallou</title>
+    <link>https://jorandg.github.io/publication-type/4/</link>
+      <atom:link href="https://jorandg.github.io/publication-type/4/index.xml" rel="self" type="application/rss+xml" />
     <description>4</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>J. Mellet © 2021</copyright><lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Jorand Gallou© 2021</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jumellet.github.io/media/icon_hu4c70d05966d03809bc75e1cb58bab6e6_6741_512x512_fill_lanczos_center_2.png</url>
+      <url>https://jorandg.github.io/media/icon_hu7b5d921d9e091e22d2887ab6352bd001_137302_512x512_fill_lanczos_center_2.png</url>
       <title>4</title>
-      <link>https://jumellet.github.io/publication-type/4/</link>
+      <link>https://jorandg.github.io/publication-type/4/</link>
     </image>
     
     <item>
-      <title>The Hive Tracker</title>
-      <link>https://jumellet.github.io/publication/hive-tracker/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://jumellet.github.io/publication/hive-tracker/</guid>
+      <title>The Robot Arm</title>
+      <link>https://jorandg.github.io/publication/robot-arm/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://jorandg.github.io/publication/robot-arm/</guid>
       <description>&lt;p&gt;This Master project was about the miniaturization of the Vive Tracker developpd by HTC. It allows sub-millimetric 3d positioning at scale, and embeds a 9DoF IMU with sensor fusion. The &lt;a href=&#34;https://github.com/HiveTracker&#34;&gt;repository&lt;/a&gt; shows several developments and documented test bricks.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;hive-tracker.jpg&#34; alt=&#34;alt text&#34; title=&#34;Vive Tracker vs Hive Tracker&#34;&gt;&lt;/p&gt;
 &lt;p&gt;During this project, I had first simulate the Hive Tracker on a &lt;a href=&#34;https://github.com/jumellet/Kalman-Filter/tree/Dev/Simulations&#34;&gt;game engine&lt;/a&gt;.&lt;/p&gt;

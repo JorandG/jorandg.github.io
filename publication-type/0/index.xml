@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>0 | J. Mellet</title>
-    <link>https://jumellet.github.io/publication-type/0/</link>
-      <atom:link href="https://jumellet.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
+    <title>0 | Jorand Gallou</title>
+    <link>https://jorandg.github.io/publication-type/0/</link>
+      <atom:link href="https://jorandg.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>J. Mellet © 2021</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Jorand Gallou© 2021</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jumellet.github.io/media/icon_hu4c70d05966d03809bc75e1cb58bab6e6_6741_512x512_fill_lanczos_center_2.png</url>
+      <url>https://jorandg.github.io/media/icon_hu7b5d921d9e091e22d2887ab6352bd001_137302_512x512_fill_lanczos_center_2.png</url>
       <title>0</title>
-      <link>https://jumellet.github.io/publication-type/0/</link>
+      <link>https://jorandg.github.io/publication-type/0/</link>
     </image>
     
     <item>
       <title>The Educational Robot: ilo</title>
-      <link>https://jumellet.github.io/publication/ilo-robot/</link>
+      <link>https://jorandg.github.io/publication/ilo-robot/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://jumellet.github.io/publication/ilo-robot/</guid>
+      <guid>https://jorandg.github.io/publication/ilo-robot/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cad-print.JPG&#34; alt=&#34;alt text&#34; title=&#34;ilo CAD to Printed&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;system-architecture&#34;&gt;System Architecture&lt;/h4&gt;
 &lt;p&gt;The robot embeds common and open source components to be easily made.&lt;/p&gt;

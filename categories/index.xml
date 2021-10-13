@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories | J. Mellet</title>
-    <link>https://jumellet.github.io/categories/</link>
-      <atom:link href="https://jumellet.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <title>Categories | Jorand Gallou</title>
+    <link>https://jorandg.github.io/categories/</link>
+      <atom:link href="https://jorandg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>J. Mellet © 2021</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Jorand Gallou© 2021</copyright>
     <image>
-      <url>https://jumellet.github.io/media/icon_hu4c70d05966d03809bc75e1cb58bab6e6_6741_512x512_fill_lanczos_center_2.png</url>
+      <url>https://jorandg.github.io/media/icon_hu7b5d921d9e091e22d2887ab6352bd001_137302_512x512_fill_lanczos_center_2.png</url>
       <title>Categories</title>
-      <link>https://jumellet.github.io/categories/</link>
+      <link>https://jorandg.github.io/categories/</link>
     </image>
     
   </channel>

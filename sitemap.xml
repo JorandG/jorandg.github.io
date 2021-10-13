@@ -2,65 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jumellet.github.io/talk/example-talk/</loc>
+    <loc>https://jorandg.github.io/talk/example-talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/</loc>
+    <loc>https://jorandg.github.io/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/event/</loc>
+    <loc>https://jorandg.github.io/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/publication-type/7/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <loc>https://jorandg.github.io/publication-type/4/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/publication/fast-landing/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <loc>https://jorandg.github.io/publication_types/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/publication_types/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <loc>https://jorandg.github.io/publication/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/publication/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <loc>https://jorandg.github.io/publication/robot-arm/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/publication-type/3/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <loc>https://jorandg.github.io/publication-type/7/</loc>
+    <lastmod>2021-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/publication/e-rocket/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <loc>https://jorandg.github.io/publication/master-thesis/</loc>
+    <lastmod>2021-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/publication-type/0/</loc>
+    <loc>https://jorandg.github.io/publication-type/0/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/publication/ilo-robot/</loc>
+    <loc>https://jorandg.github.io/publication/ilo-robot/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/slides/</loc>
+    <loc>https://jorandg.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/slides/example/</loc>
+    <loc>https://jorandg.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/publication-type/4/</loc>
-    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jumellet.github.io/publication/hive-tracker/</loc>
-    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jumellet.github.io/tag/deep-learning/</loc>
+    <loc>https://jorandg.github.io/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/project/example/</loc>
+    <loc>https://jorandg.github.io/project/example/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/project/</loc>
+    <loc>https://jorandg.github.io/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/tags/</loc>
+    <loc>https://jorandg.github.io/tags/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jumellet.github.io/admin/</loc>
+    <loc>https://jorandg.github.io/admin/</loc>
   </url><url>
-    <loc>https://jumellet.github.io/categories/</loc>
+    <loc>https://jorandg.github.io/categories/</loc>
   </url>
 </urlset>
