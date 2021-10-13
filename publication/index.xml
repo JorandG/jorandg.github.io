@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | J. Mellet</title>
+    <link>https://jumellet.github.io/publication/</link>
+      <atom:link href="https://jumellet.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>J. Mellet © 2021</copyright><lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jumellet.github.io/media/icon_hu4c70d05966d03809bc75e1cb58bab6e6_6741_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>https://jumellet.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Master Thesis on Fast Autonomous Drone Landing</title>
+      <link>https://jumellet.github.io/publication/fast-landing/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://jumellet.github.io/publication/fast-landing/</guid>
+      <description>&lt;h4 id=&#34;drone-perception&#34;&gt;Drone Perception&lt;/h4&gt;
+&lt;p&gt;This research proposed a way to generate accurate photorealistic dataset for a given landing pad. It was then possible to use it for supervised learning.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;camera-vision.jpg&#34; alt=&#34;alt text&#34; title=&#34;Environment Landing Pad Generator&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The proposed &lt;a href=&#34;https://github.com/jumellet/landing-pad-dataset-generator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset generator&lt;/a&gt; gave a way to feed the neural networks. It has now the ability to estimate accurately its position with a wide range of vision. Thanks to an appropriate landing pad shape, even seeing only part of the landing area permits the drone to descend.&lt;/p&gt;
+&lt;h4 id=&#34;guidance-and-control&#34;&gt;Guidance and Control&lt;/h4&gt;
+&lt;p&gt;For visual servoing, a multi-scale control is proposed where control sensitivity depends on drone altitude. The use of the neural network in a simulated environment multiplied by three the processing rate, the control is thus closer to real time.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;drone-land.gif&#34; alt=&#34;alt text&#34; title=&#34;Fast Landing Working Algorithm Demo&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;mechanical-landing-gear&#34;&gt;Mechanical Landing Gear&lt;/h4&gt;
+&lt;p&gt;For fast landing situations, the vertical speed is higher than standard descent. The research proposes a landing gears that absorbs more than ten times the kinetic energy of standard landing legs. A
+&lt;strong&gt;patent&lt;/strong&gt; is filed to protect the concept..&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;landing-gear.jpg&#34; alt=&#34;alt text&#34; title=&#34;Landing Gear Concept Evolution&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The eRocket</title>
+      <link>https://jumellet.github.io/publication/e-rocket/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://jumellet.github.io/publication/e-rocket/</guid>
+      <description>&lt;p&gt;There is an increasing demand for fast drone deliveries for both consumer’s necessities and medical emergencies. In addition to improve delivery, there have been many developments within space research aiming to reduce global cost. Reusable rockets are regarded as the future of space travel, however, numerous accidents have been observed during landing, making these rockets an unreliable resource for experimentation. This new benchmark system is a reliable platform. It mainly embeds drone and model making components on an electric thrust vectored rocket architecture.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;thumbs.jpg&#34; alt=&#34;alt text&#34; title=&#34;eRocket CAD&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Under its state conditions and using Newton&amp;rsquo;s laws, the equations of motion approximate an inverted pendulum.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;eq.jpg&#34; alt=&#34;alt text&#34; title=&#34;eRocket Theorical Model&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It has then been simulated on MATLAB. It proves that a PID control loop allows the system to accurately takeoff, hover and land.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;sim.jpg&#34; alt=&#34;alt text&#34; title=&#34;eRocket MATLAB Simulation&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As a proof of concept, a real prototype is under development. It is now time to optimize flight-time and implement transition between hovering and standard flight.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;prototype.jpg&#34; alt=&#34;alt text&#34; title=&#34;eRocket Prototypes&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Educational Robot: ilo</title>
+      <link>https://jumellet.github.io/publication/ilo-robot/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jumellet.github.io/publication/ilo-robot/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;cad-print.JPG&#34; alt=&#34;alt text&#34; title=&#34;ilo CAD to Printed&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;system-architecture&#34;&gt;System Architecture&lt;/h4&gt;
+&lt;p&gt;The robot embeds common and open source components to be easily made.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;architecture.jpg&#34; alt=&#34;alt text&#34; title=&#34;ilo Architecture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The arduino is simply there to control the motors via the RAMPS 1.6, which is the motor shield. As a slave, it responds to a serial command of speed intensity on both translation and rotation possible on the ground. The raspberry is the master and controls all the actuators.&lt;/p&gt;
+&lt;h4 id=&#34;mechanical-design&#34;&gt;Mechanical Design&lt;/h4&gt;
+&lt;p&gt;The robot manufacturing tries to take advandage of 3D printing. This would allow for a greater sharing of the project.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;facettes-print.JPG&#34; alt=&#34;alt text&#34; title=&#34;ilo from every angle&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As the project aims to be open source, we try to make the robot fully 3D printable. &lt;a href=&#34;%22https://github.com/jumellet/ilo-bot/tree/main/parts%22&#34;&gt;Here&lt;/a&gt; can be found the differnet parts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;wheels.jpg&#34; alt=&#34;alt text&#34; title=&#34;ilo Meccanum Wheels&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Meccanum wheels are the key part of the robot, and enable it to have 3 degrees of liberty on the ground.&lt;/p&gt;
+&lt;h4 id=&#34;elementary-programming&#34;&gt;Elementary Programming&lt;/h4&gt;
+&lt;p&gt;Our goal to introduce algorithm theory from the youngest age. We provide an easy way to learn how to structure computer code and execute it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;arrows.jpg&#34; alt=&#34;alt text&#34; title=&#34;ilo Image Detection&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Our system has the particularity to allow children to code without a computer. With a pencil and a sheet of paper, you can start to code the robot&amp;rsquo;s movements. The idea is to open the doors of programming as soon as possible and to as many people as possible. Verification the programming of the robot path is done with the application. It is simply a matter of taking a picture and ilo will start its journey.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Hive Tracker</title>
+      <link>https://jumellet.github.io/publication/hive-tracker/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://jumellet.github.io/publication/hive-tracker/</guid>
+      <description>&lt;p&gt;This Master project was about the miniaturization of the Vive Tracker developpd by HTC. It allows sub-millimetric 3d positioning at scale, and embeds a 9DoF IMU with sensor fusion. The &lt;a href=&#34;https://github.com/HiveTracker&#34;&gt;repository&lt;/a&gt; shows several developments and documented test bricks.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hive-tracker.jpg&#34; alt=&#34;alt text&#34; title=&#34;Vive Tracker vs Hive Tracker&#34;&gt;&lt;/p&gt;
+&lt;p&gt;During this project, I had first simulate the Hive Tracker on a &lt;a href=&#34;https://github.com/jumellet/Kalman-Filter/tree/Dev/Simulations&#34;&gt;game engine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;sim.gif&#34; alt=&#34;alt text&#34; title=&#34;Hive Tracker Simulation&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I have then implemented the mathematical principle of the HTC Vive localisation. We wanted to publish it in open source, we used Blender for 3D virtual representation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;animation.gif&#34; alt=&#34;alt text&#34; title=&#34;Real Time Positionning&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

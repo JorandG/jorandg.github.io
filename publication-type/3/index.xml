@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | J. Mellet</title>
+    <link>https://jumellet.github.io/publication-type/3/</link>
+      <atom:link href="https://jumellet.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>J. Mellet © 2021</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jumellet.github.io/media/icon_hu4c70d05966d03809bc75e1cb58bab6e6_6741_512x512_fill_lanczos_center_2.png</url>
+      <title>3</title>
+      <link>https://jumellet.github.io/publication-type/3/</link>
+    </image>
+    
+    <item>
+      <title>The eRocket</title>
+      <link>https://jumellet.github.io/publication/e-rocket/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://jumellet.github.io/publication/e-rocket/</guid>
+      <description>&lt;p&gt;There is an increasing demand for fast drone deliveries for both consumer’s necessities and medical emergencies. In addition to improve delivery, there have been many developments within space research aiming to reduce global cost. Reusable rockets are regarded as the future of space travel, however, numerous accidents have been observed during landing, making these rockets an unreliable resource for experimentation. This new benchmark system is a reliable platform. It mainly embeds drone and model making components on an electric thrust vectored rocket architecture.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;thumbs.jpg&#34; alt=&#34;alt text&#34; title=&#34;eRocket CAD&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Under its state conditions and using Newton&amp;rsquo;s laws, the equations of motion approximate an inverted pendulum.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;eq.jpg&#34; alt=&#34;alt text&#34; title=&#34;eRocket Theorical Model&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It has then been simulated on MATLAB. It proves that a PID control loop allows the system to accurately takeoff, hover and land.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;sim.jpg&#34; alt=&#34;alt text&#34; title=&#34;eRocket MATLAB Simulation&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As a proof of concept, a real prototype is under development. It is now time to optimize flight-time and implement transition between hovering and standard flight.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;prototype.jpg&#34; alt=&#34;alt text&#34; title=&#34;eRocket Prototypes&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

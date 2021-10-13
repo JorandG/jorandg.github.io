@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 | J. Mellet</title>
+    <link>https://jumellet.github.io/publication-type/0/</link>
+      <atom:link href="https://jumellet.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>J. Mellet © 2021</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jumellet.github.io/media/icon_hu4c70d05966d03809bc75e1cb58bab6e6_6741_512x512_fill_lanczos_center_2.png</url>
+      <title>0</title>
+      <link>https://jumellet.github.io/publication-type/0/</link>
+    </image>
+    
+    <item>
+      <title>The Educational Robot: ilo</title>
+      <link>https://jumellet.github.io/publication/ilo-robot/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jumellet.github.io/publication/ilo-robot/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;cad-print.JPG&#34; alt=&#34;alt text&#34; title=&#34;ilo CAD to Printed&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;system-architecture&#34;&gt;System Architecture&lt;/h4&gt;
+&lt;p&gt;The robot embeds common and open source components to be easily made.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;architecture.jpg&#34; alt=&#34;alt text&#34; title=&#34;ilo Architecture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The arduino is simply there to control the motors via the RAMPS 1.6, which is the motor shield. As a slave, it responds to a serial command of speed intensity on both translation and rotation possible on the ground. The raspberry is the master and controls all the actuators.&lt;/p&gt;
+&lt;h4 id=&#34;mechanical-design&#34;&gt;Mechanical Design&lt;/h4&gt;
+&lt;p&gt;The robot manufacturing tries to take advandage of 3D printing. This would allow for a greater sharing of the project.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;facettes-print.JPG&#34; alt=&#34;alt text&#34; title=&#34;ilo from every angle&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As the project aims to be open source, we try to make the robot fully 3D printable. &lt;a href=&#34;%22https://github.com/jumellet/ilo-bot/tree/main/parts%22&#34;&gt;Here&lt;/a&gt; can be found the differnet parts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;wheels.jpg&#34; alt=&#34;alt text&#34; title=&#34;ilo Meccanum Wheels&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Meccanum wheels are the key part of the robot, and enable it to have 3 degrees of liberty on the ground.&lt;/p&gt;
+&lt;h4 id=&#34;elementary-programming&#34;&gt;Elementary Programming&lt;/h4&gt;
+&lt;p&gt;Our goal to introduce algorithm theory from the youngest age. We provide an easy way to learn how to structure computer code and execute it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;arrows.jpg&#34; alt=&#34;alt text&#34; title=&#34;ilo Image Detection&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Our system has the particularity to allow children to code without a computer. With a pencil and a sheet of paper, you can start to code the robot&amp;rsquo;s movements. The idea is to open the doors of programming as soon as possible and to as many people as possible. Verification the programming of the robot path is done with the application. It is simply a matter of taking a picture and ilo will start its journey.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
