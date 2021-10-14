@@ -58,7 +58,7 @@
 &lt;p&gt;&lt;img src=&#34;installation.jpg&#34; alt=&#34;alt text&#34; title=&#34;Robot arm controller with a joystick&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The servos are plugged on the PWN pins 5, 6, 9. And the joystick is plugged on the A0 and A1.&lt;/p&gt;
 &lt;h4 id=&#34;conputer-vision&#34;&gt;Conputer Vision&lt;/h4&gt;
-&lt;p&gt;Steps are described on the github repository &lt;a href=&#34;%22https://github.com/JorandG/EezybotMK1ComputerVision%22&#34;&gt;EEZYbotComputerVision&lt;/a&gt; so that the user can obtain the postion of an object in a square made with aruco markers as followed:&lt;/p&gt;
+&lt;p&gt;Steps are described on the github repository &lt;a href=&#34;https://github.com/JorandG/EezybotMK1ComputerVision&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EEZYbotComputerVision&lt;/a&gt; so that the user can obtain the postion of an object in a square made with aruco markers as followed:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;cv.png&#34; alt=&#34;alt text&#34; title=&#34;Object detection&#34;&gt;&lt;/p&gt;
 </description>
     </item>
