@@ -5,7 +5,7 @@
     <link>https://jorandg.github.io/publication-type/4/</link>
       <atom:link href="https://jorandg.github.io/publication-type/4/index.xml" rel="self" type="application/rss+xml" />
     <description>4</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Jorand Gallou© 2021</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Jorand Gallou© 2021</copyright><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jorandg.github.io/media/icon_hu7b5d921d9e091e22d2887ab6352bd001_137302_512x512_fill_lanczos_center_2.png</url>
       <title>4</title>
@@ -13,16 +13,17 @@
     </image>
     
     <item>
-      <title>The Robot Arm</title>
+      <title>The EEZTbot with computer vision</title>
       <link>https://jorandg.github.io/publication/robot-arm/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://jorandg.github.io/publication/robot-arm/</guid>
-      <description>&lt;p&gt;This Master project was about the miniaturization of the Vive Tracker developpd by HTC. It allows sub-millimetric 3d positioning at scale, and embeds a 9DoF IMU with sensor fusion. The &lt;a href=&#34;https://github.com/HiveTracker&#34;&gt;repository&lt;/a&gt; shows several developments and documented test bricks.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;hive-tracker.jpg&#34; alt=&#34;alt text&#34; title=&#34;Vive Tracker vs Hive Tracker&#34;&gt;&lt;/p&gt;
-&lt;p&gt;During this project, I had first simulate the Hive Tracker on a &lt;a href=&#34;https://github.com/jumellet/Kalman-Filter/tree/Dev/Simulations&#34;&gt;game engine&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;sim.gif&#34; alt=&#34;alt text&#34; title=&#34;Hive Tracker Simulation&#34;&gt;&lt;/p&gt;
-&lt;p&gt;I have then implemented the mathematical principle of the HTC Vive localisation. We wanted to publish it in open source, we used Blender for 3D virtual representation.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;animation.gif&#34; alt=&#34;alt text&#34; title=&#34;Real Time Positionning&#34;&gt;&lt;/p&gt;
+      <description>&lt;h4 id=&#34;installation&#34;&gt;Installation&lt;/h4&gt;
+&lt;p&gt;In order to manipulate the MK1 we used an arduino uno and a joystick as you can see on the following picture:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;installation.jpg&#34; alt=&#34;alt text&#34; title=&#34;Robot arm controller with a joystick&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The servos are plugged on the PWN pins 5, 6, 9. And the joystick is plugged on the A0 and A1.&lt;/p&gt;
+&lt;h4 id=&#34;conputer-vision&#34;&gt;Conputer Vision&lt;/h4&gt;
+&lt;p&gt;Steps are described on the github repository &lt;a href=&#34;%22https://github.com/JorandG/EezybotMK1ComputerVision%22&#34;&gt;EEZYbotComputerVision&lt;/a&gt; so that the user can obtain the postion of an object in a square made with aruco markers as followed:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;cv.png&#34; alt=&#34;alt text&#34; title=&#34;Object detection&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     

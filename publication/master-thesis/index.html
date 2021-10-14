@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="The needs for fast drones with super-human capabilities has been applied for landing approach." />
+  <meta name="description" content="The needs for path planning with super-human capabilities has been applied for truss assembly." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://jorandg.github.io/publication/master-thesis/" />
@@ -294,8 +294,8 @@
   <meta property="og:site_name" content="Jorand Gallou" />
   <meta property="og:url" content="https://jorandg.github.io/publication/master-thesis/" />
   <meta property="og:title" content="Master Thesis on Path Planning | Jorand Gallou" />
-  <meta property="og:description" content="The needs for fast drones with super-human capabilities has been applied for landing approach." /><meta property="og:image" content="https://jorandg.github.io/publication/master-thesis/featured.jpg" />
-    <meta property="twitter:image" content="https://jorandg.github.io/publication/master-thesis/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="The needs for path planning with super-human capabilities has been applied for truss assembly." /><meta property="og:image" content="https://jorandg.github.io/publication/master-thesis/featured.png" />
+    <meta property="twitter:image" content="https://jorandg.github.io/publication/master-thesis/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -330,7 +330,7 @@
   "headline": "Master Thesis on Path Planning",
   
   "image": [
-    "https://jorandg.github.io/publication/master-thesis/featured.jpg"
+    "https://jorandg.github.io/publication/master-thesis/featured.png"
   ],
   
   "datePublished": "2021-07-06T00:00:00Z",
@@ -349,7 +349,7 @@
       "url": "https://jorandg.github.io/media/icon_hu7b5d921d9e091e22d2887ab6352bd001_137302_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "The needs for fast drones with super-human capabilities has been applied for landing approach."
+  "description": "The needs for path planning with super-human capabilities has been applied for truss assembly."
 }
 </script>
 
@@ -718,7 +718,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="/publication/fast-landing/NPU-2018280049.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/publication/master-thesis/NPU-Thesis.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -736,7 +736,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="/publication/fast-landing/defense-master-thesis.pptx" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/publication/master-thesis/defense-master-thesis.pptx" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -752,9 +752,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 401px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 450px;">
   <div style="position: relative">
-    <img src="/publication/master-thesis/featured_hub0bb520fec4b99b4f6ba5228d24253fb_64223_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
+    <img src="/publication/master-thesis/featured_huf1b0d1bf0eec8bb2fe1d87e59853ecef_369096_720x0_resize_lanczos_2.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -765,7 +765,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">There is an increasing demand for fast drone deliveries for both consumer’s necessities and medical emergencies. All aircraft are subject to landing difficulties because of near-ground aerodynamic effects and complications with moving from air to land. In addition, for improving delivery, there have been many developments within space research aiming to reduce global cost. Reusable rockets are regarded as the future of space travel, however, numerous accidents have been observed during landing, making these rockets an unreliable resource for experimentation. The standard approach for both drone delivery and reusable rockets requires speed reduction before landing, as explained by the lack of precision of the embedded sensors combined with the fragility of the chassis. The landing shock thus needs to be attenuated to deform irremediably the frame structure. Therefore there is a need for improvement of landing approach for more reliability. The main research contents of this Master thesis cover different areas forthe development of a newly designed electric thrust vectored rocket that aims to incorporate a fast landing approach using this new benchmark system.</p>
+    <p class="pub-abstract">Since the start of the space conquest, almost all spacecraft have been manufactured and assembled on the ground, then integrated into a launch vehicle for delivery into orbit. This ap­proach imposes significant limitations on the size, volume, and design of payloads. In addition, the size of the telescopes and antennas is intimately linked to their performance. Therefore, there is a need for improvement of the space assembly to get rid of these limitations. With the on -orbit assembly, the launched vehicle only embarks the modular components required for bigger and more complex structures which are then build via a robot. Truss assembly plays an important role when one needs to build strong and light structures. Truss allows constructing complex structures from a simple one. It considerably reduces the amount of space and weight in the launch vehicle.</p>
     
 
     
@@ -791,17 +791,14 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"><h4 id="drone-perception">Drone Perception</h4>
-<p>This research proposed a way to generate accurate photorealistic dataset for a given landing pad. It was then possible to use it for supervised learning.</p>
-<p><img src="camera-vision.jpg" alt="alt text" title="Environment Landing Pad Generator"></p>
-<p>The proposed <a href="https://github.com/jumellet/landing-pad-dataset-generator" target="_blank" rel="noopener">dataset generator</a> gave a way to feed the neural networks. It has now the ability to estimate accurately its position with a wide range of vision. Thanks to an appropriate landing pad shape, even seeing only part of the landing area permits the drone to descend.</p>
-<h4 id="guidance-and-control">Guidance and Control</h4>
-<p>For visual servoing, a multi-scale control is proposed where control sensitivity depends on drone altitude. The use of the neural network in a simulated environment multiplied by three the processing rate, the control is thus closer to real time.</p>
-<p><img src="drone-land.gif" alt="alt text" title="Fast Landing Working Algorithm Demo"></p>
-<h4 id="mechanical-landing-gear">Mechanical Landing Gear</h4>
-<p>For fast landing situations, the vertical speed is higher than standard descent. The research proposes a landing gears that absorbs more than ten times the kinetic energy of standard landing legs. A
-<strong>patent</strong> is filed to protect the concept..</p>
-<p><img src="landing-gear.jpg" alt="alt text" title="Landing Gear Concept Evolution"></p>
+    <div class="article-style"><h4 id="truss-assembly">Truss Assembly</h4>
+<p>The joint at the assembly nodes is a crucial part. For a robotic assembly, it is the part that requires the most advanced techniques, but it could be facilitated with a well engineered process. Different are discussed for the assembly of mirrors and then magnetic joints are presented.</p>
+<p><img src="assembly.png" alt="alt text" title="Bars Assembly"></p>
+<p><img src="final-assembly.png" alt="alt text" title="Final assembly of 7 mirrors with the second design"></p>
+<p>This design ease the assembly for the robot. First, the grasping is made using magnetization so no need for special grasping. There is no lost surface and the bars are lighter which is a very important consideration for an on-­orbit assembly where the payload is very costly. Then because of the symmetry of the bars, the assembly needs to care only about the orientation of the element on the z axis. Finally, this design can easily be printed in space same as the ”Trusselator” which considerably reduces the payload for big structures assembly.</p>
+<h4 id="autonomous-path-planning">Autonomous path planning</h4>
+<p>The number of steps is the number of modifications of the joint angle. The DQL showed good results. With this Policy, the robot could find the optimal path to the target with the minimum number of 3 steps. Finally, that technique was kept to make the Pick and Place environment where the robot had to catch a ball with a magnetized end-effector and place it in another desired position. In the end, the robot did it with an average of 5 steps.</p>
+<p><img src="animation.gif" alt="alt text" title="Autonomous planning"></p>
 </div>
 
     
@@ -837,8 +834,8 @@
       
       
       <li>
-        <a href="https://github.com/jumellet" target="_blank" rel="noopener" class="share-btn-github">
-          <i class="fab fa-github"></i>
+        <a href="https://fr.linkedin.com/in/jorand-gallou-308145125" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
     
@@ -850,8 +847,8 @@
       
       
       <li>
-        <a href="https://www.youtube.com/channel/UCwZUcUe_qjaWhh-97-XTDgA" target="_blank" rel="noopener" class="share-btn-youtube">
-          <i class="fab fa-youtube"></i>
+        <a href="https://github.com/JorandG" target="_blank" rel="noopener" class="share-btn-github">
+          <i class="fab fa-github"></i>
         </a>
       </li>
     
@@ -889,8 +886,8 @@
 
     <div class="media-body">
       <h5 class="card-title"><a href="https://jorandg.github.io/">Jorand Gallou</a></h5>
-      <h6 class="card-subtitle">Industrial and Aerospace Research Engineer</h6>
-      <p class="card-text">My research interests include robotics arm, mobile computing and programmable matter.</p>
+      <h6 class="card-subtitle">Industrial and Aerospace Robotics Research Engineer</h6>
+      <p class="card-text">My research interests include robotics arm, machine learning and path planning.</p>
       <ul class="network-icon" aria-hidden="true">
   
     

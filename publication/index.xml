@@ -5,7 +5,7 @@
     <link>https://jorandg.github.io/publication/</link>
       <atom:link href="https://jorandg.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Jorand Gallou© 2021</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Jorand Gallou© 2021</copyright><lastBuildDate>Tue, 06 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jorandg.github.io/media/icon_hu7b5d921d9e091e22d2887ab6352bd001_137302_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
@@ -13,35 +13,33 @@
     </image>
     
     <item>
-      <title>The Robot Arm</title>
-      <link>https://jorandg.github.io/publication/robot-arm/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://jorandg.github.io/publication/robot-arm/</guid>
-      <description>&lt;p&gt;This Master project was about the miniaturization of the Vive Tracker developpd by HTC. It allows sub-millimetric 3d positioning at scale, and embeds a 9DoF IMU with sensor fusion. The &lt;a href=&#34;https://github.com/HiveTracker&#34;&gt;repository&lt;/a&gt; shows several developments and documented test bricks.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;hive-tracker.jpg&#34; alt=&#34;alt text&#34; title=&#34;Vive Tracker vs Hive Tracker&#34;&gt;&lt;/p&gt;
-&lt;p&gt;During this project, I had first simulate the Hive Tracker on a &lt;a href=&#34;https://github.com/jumellet/Kalman-Filter/tree/Dev/Simulations&#34;&gt;game engine&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;sim.gif&#34; alt=&#34;alt text&#34; title=&#34;Hive Tracker Simulation&#34;&gt;&lt;/p&gt;
-&lt;p&gt;I have then implemented the mathematical principle of the HTC Vive localisation. We wanted to publish it in open source, we used Blender for 3D virtual representation.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;animation.gif&#34; alt=&#34;alt text&#34; title=&#34;Real Time Positionning&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Master Thesis on Path Planning</title>
       <link>https://jorandg.github.io/publication/master-thesis/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://jorandg.github.io/publication/master-thesis/</guid>
-      <description>&lt;h4 id=&#34;drone-perception&#34;&gt;Drone Perception&lt;/h4&gt;
-&lt;p&gt;This research proposed a way to generate accurate photorealistic dataset for a given landing pad. It was then possible to use it for supervised learning.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;camera-vision.jpg&#34; alt=&#34;alt text&#34; title=&#34;Environment Landing Pad Generator&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The proposed &lt;a href=&#34;https://github.com/jumellet/landing-pad-dataset-generator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset generator&lt;/a&gt; gave a way to feed the neural networks. It has now the ability to estimate accurately its position with a wide range of vision. Thanks to an appropriate landing pad shape, even seeing only part of the landing area permits the drone to descend.&lt;/p&gt;
-&lt;h4 id=&#34;guidance-and-control&#34;&gt;Guidance and Control&lt;/h4&gt;
-&lt;p&gt;For visual servoing, a multi-scale control is proposed where control sensitivity depends on drone altitude. The use of the neural network in a simulated environment multiplied by three the processing rate, the control is thus closer to real time.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;drone-land.gif&#34; alt=&#34;alt text&#34; title=&#34;Fast Landing Working Algorithm Demo&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;mechanical-landing-gear&#34;&gt;Mechanical Landing Gear&lt;/h4&gt;
-&lt;p&gt;For fast landing situations, the vertical speed is higher than standard descent. The research proposes a landing gears that absorbs more than ten times the kinetic energy of standard landing legs. A
-&lt;strong&gt;patent&lt;/strong&gt; is filed to protect the concept..&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;landing-gear.jpg&#34; alt=&#34;alt text&#34; title=&#34;Landing Gear Concept Evolution&#34;&gt;&lt;/p&gt;
+      <description>&lt;h4 id=&#34;truss-assembly&#34;&gt;Truss Assembly&lt;/h4&gt;
+&lt;p&gt;The joint at the assembly nodes is a crucial part. For a robotic assembly, it is the part that requires the most advanced techniques, but it could be facilitated with a well engineered process. Different are discussed for the assembly of mirrors and then magnetic joints are presented.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;assembly.png&#34; alt=&#34;alt text&#34; title=&#34;Bars Assembly&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;final-assembly.png&#34; alt=&#34;alt text&#34; title=&#34;Final assembly of 7 mirrors with the second design&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This design ease the assembly for the robot. First, the grasping is made using magnetization so no need for special grasping. There is no lost surface and the bars are lighter which is a very important consideration for an on-­orbit assembly where the payload is very costly. Then because of the symmetry of the bars, the assembly needs to care only about the orientation of the element on the z axis. Finally, this design can easily be printed in space same as the ”Trusselator” which considerably reduces the payload for big structures assembly.&lt;/p&gt;
+&lt;h4 id=&#34;autonomous-path-planning&#34;&gt;Autonomous path planning&lt;/h4&gt;
+&lt;p&gt;The number of steps is the number of modifications of the joint angle. The DQL showed good results. With this Policy, the robot could find the optimal path to the target with the minimum number of 3 steps. Finally, that technique was kept to make the Pick and Place environment where the robot had to catch a ball with a magnetized end-effector and place it in another desired position. In the end, the robot did it with an average of 5 steps.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;animation.gif&#34; alt=&#34;alt text&#34; title=&#34;Autonomous planning&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The EEZTbot with computer vision</title>
+      <link>https://jorandg.github.io/publication/robot-arm/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://jorandg.github.io/publication/robot-arm/</guid>
+      <description>&lt;h4 id=&#34;installation&#34;&gt;Installation&lt;/h4&gt;
+&lt;p&gt;In order to manipulate the MK1 we used an arduino uno and a joystick as you can see on the following picture:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;installation.jpg&#34; alt=&#34;alt text&#34; title=&#34;Robot arm controller with a joystick&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The servos are plugged on the PWN pins 5, 6, 9. And the joystick is plugged on the A0 and A1.&lt;/p&gt;
+&lt;h4 id=&#34;conputer-vision&#34;&gt;Conputer Vision&lt;/h4&gt;
+&lt;p&gt;Steps are described on the github repository &lt;a href=&#34;%22https://github.com/JorandG/EezybotMK1ComputerVision%22&#34;&gt;EEZYbotComputerVision&lt;/a&gt; so that the user can obtain the postion of an object in a square made with aruco markers as followed:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;cv.png&#34; alt=&#34;alt text&#34; title=&#34;Object detection&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
